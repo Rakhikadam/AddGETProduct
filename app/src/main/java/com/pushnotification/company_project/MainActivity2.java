@@ -56,9 +56,9 @@ public class MainActivity2 extends AppCompatActivity {
     }
     private  void  recievedata(){
        
-
-       JsonObjectRequest objectRequest = new JsonObjectRequest(Request.Method.GET,
-               "https://fakestoreapi.com/products", null,
+        JsonObjectRequest objectRequest = new JsonObjectRequest(Request.Method.GET,
+               "https://fakestoreapi.com/products/20", null,
+               //"https://fakestoreapi.com/users/20", null,
 
                new Response.Listener<JSONObject>() {
                    @Override
